@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="syscom:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="sys.com.war">
+      <element id="artifact" artifact-name="syscom:war exploded" />
+    </root>
+  </artifact>
+</component>

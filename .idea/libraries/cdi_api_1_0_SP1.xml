@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="cdi-api-1.0-SP1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/ddddd/cdi-api-1.0-SP1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/ddddd/javax.inject-1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/ddddd/weld-spi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

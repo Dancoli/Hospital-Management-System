@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post"action="">
+    message:<textarea cols="5"rows="5"id="message">
+
+</textarea>
+    <button type="button"onclick="websockectTest()">Send</button>
+</form>
+<script type="text/javascript">
+    var socket=new WebSocket("ws:localhost:8080/sys.com/test");
+    function websockectTest() {
+        var message=document.getElementById("message").value;
+        socket.send(message);
+    }
+</script>
+</body>
+</html>
